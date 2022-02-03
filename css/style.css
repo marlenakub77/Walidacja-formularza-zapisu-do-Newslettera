@@ -1,0 +1,43 @@
+form#newsletter-form {
+    background-color: rgb(154, 184, 27);
+    font-size: 16px;
+    color: white;
+    width: 30%;
+    padding: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#errors {
+    color: rgb(197, 48, 48);
+    padding-left: 19px;
+}
+
+label {
+    margin-top: 10px;
+    border: 0;   
+}
+
+
+input, label {
+    display: inline-block;
+    border: 0;
+    padding: 3px;
+}
+
+input[type='text'], input[type='email'] {
+    height: 20px;
+    width: 100%;
+}
+button[type='submit'] {
+    background-color: #ff9300;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button[type='submit']:hover {
+    background-color: #333333;
+}
